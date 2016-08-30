@@ -1,0 +1,151 @@
+@media (max-width: 1030px) {
+  nav {
+    display:none;
+  }
+  .dropDown {
+    display: block !important;
+  }
+}
+@media (min-width: 1031px){ .dropDown-links {
+  display: none !important;
+}
+}
+
+
+
+body {
+  margin:0;
+  padding: 0;
+
+}
+.pageHead{
+  background-color: #2e3e4e;
+  border-style: groove;
+  border-color: black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.pageHead img{
+  padding-left: 5px;
+  height: 125px;
+  width: 175px;
+}
+.pageHead a {
+  font-family: Helvetica, Arial, Sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.pageHead a:hover {
+  text-decoration: underline;
+}
+.Left-headLinks{
+  position: absolute;
+  top:1%;
+  left: 185px;
+  margin-right: 50%;
+
+}
+@media (max-width: 600px ) { .Left-headLinks {
+  position: absolute; top:8%;
+}
+}
+.Right-headLinks {
+  position: fixed;
+  top: 1%;
+  right: 3%;
+  margin-left:60%;
+}
+
+nav {
+
+  top: 0px;
+  position: relative;
+  background-color: #2e3e4e;
+  color: #f1f1f1;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica,Arial,sans-serif;
+  width: 100%;
+}
+nav li {
+  float:left;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li a {
+
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: None;
+  letter-spacing: 1px;
+}
+nav li a:hover {
+  background-color: #113;
+}
+
+.dropDown {
+  color: #f1f1f1;
+  background-color: #2e3e4e;
+  display: none;
+  width: 100%;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+.dropmenu button {
+    height: 10%;
+    border: none;
+}
+.dropmenu button:hover{
+  background-color:#113;
+}
+.dropmenu img {
+  height: 100%;
+}
+.dropDown-links {
+  display: none;
+}
+.dropDown-links a {
+  color: #f1f1f1;
+  background-color: #2e3e4e;
+  font-family: Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  font-size: 6vh;
+}
+.dropDown-links a:hover{
+  background-color: #113;
+}
+.dropDown-link{
+  background-color: #2e3e4e;
+  width: 100%;
+  text-align: center;
+}
+.show {display:block;}
+
+.spanner {
+  align-content: center;
+}
+.spanner img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 675px;
+  height: 418px;
+}
+
+
+.foot_links a {
+  color: Black;
+  text-decoration: none;
+  font-family: Helvetica,Arial,sans-serif;
+}
+.foot_links a:hover {
+  text-decoration: underline;
+}
+
+.foot_links ul {
+  list-style-type: none;
+}
